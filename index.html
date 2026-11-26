@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shaddy AI Services helps small businesses grow with AI-powered digital marketing and practical business support in Kenya.">
+  <meta name="theme-color" content="#080b16">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <title>Shaddy AI Services | Smarter Business. Better Growth.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#080b16;--panel:#101629;--panel2:#141d35;--text:#f4f6ff;--muted:#a8b2cc;--blue:#4d8dff;--purple:#a36bff;--line:rgba(255,255,255,.11);--grad:linear-gradient(110deg,#4d8dff,#a36bff)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(104,70,205,.20),transparent 35%),radial-gradient(ellipse at 5% 25%,rgba(35,111,225,.13),transparent 30%),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(8,11,22,.82);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;font-family:"Space Grotesk";font-weight:700;letter-spacing:-.4px}.logo{width:38px;height:38px;border-radius:12px;background:var(--grad);display:grid;place-items:center;color:white;font-size:19px;box-shadow:0 8px 28px #5c72ff55}.navlinks{display:flex;gap:27px;color:var(--muted);font-size:14px}.navlinks a:hover{color:white}.navcta,.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:12px 19px;font-weight:700;font-size:14px;background:var(--grad);color:white;box-shadow:0 8px 25px #654fff35;transition:.2s}.navcta:hover,.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}
+    .hero{padding:100px 0 82px;display:grid;grid-template-columns:1.12fr .88fr;gap:54px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:7px 12px;border:1px solid #658fff55;border-radius:99px;background:#18284a88;color:#bcd2ff;font-size:12px;font-weight:700;letter-spacing:.7px;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:#8c75ff;box-shadow:0 0 12px #8c75ff}
+    h1,h2,h3{font-family:"Space Grotesk";line-height:1.12;letter-spacing:-1.4px}h1{font-size:clamp(43px,6vw,70px);margin:23px 0 19px;max-width:700px}h1 span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{font-size:18px;color:var(--muted);max-width:590px;margin:0 0 29px}.actions{display:flex;gap:13px;flex-wrap:wrap}.btn.secondary{background:transparent;border:1px solid var(--line);box-shadow:none}.micro{color:#8591ad;font-size:12px;margin-top:18px}
+    .visual{position:relative;min-height:390px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,#172343,#111629 58%,#21183c);padding:26px;overflow:hidden;box-shadow:0 30px 90px #0008}.visual:before,.visual:after{content:"";position:absolute;border-radius:50%;filter:blur(2px)}.visual:before{width:240px;height:240px;right:-70px;top:-90px;background:#5d6eff38}.visual:after{width:190px;height:190px;left:-80px;bottom:-100px;background:#a36bff30}.visualtop{display:flex;justify-content:space-between;align-items:center;color:#c6d1eb;font-size:12px;position:relative}.pill{border:1px solid #8ba9ff55;border-radius:99px;padding:5px 9px;color:#b9ceff}.orbit{height:245px;display:grid;place-items:center;position:relative}.orb{width:154px;height:154px;border-radius:50%;background:radial-gradient(circle at 32% 28%,#8bb9ff,#4d71ff 38%,#8d4fe4 75%,#231c52);box-shadow:0 0 65px #6c65ff80,inset -15px -18px 35px #1b155e;display:grid;place-items:center;font-family:"Space Grotesk";font-size:35px;font-weight:700}.ring{position:absolute;width:218px;height:218px;border:1px solid #8aa7ff55;border-radius:50%;transform:rotate(-25deg) scaleY(.48)}.ring.two{width:270px;height:270px;transform:rotate(55deg) scaleY(.48);border-color:#b18aff55}.float{position:absolute;padding:10px 13px;border:1px solid var(--line);border-radius:12px;background:#10182de8;color:#dce5ff;font-size:12px;box-shadow:0 10px 30px #0005}.f1{top:28px;left:8px}.f2{right:0;top:90px}.f3{bottom:20px;left:25px}.visualfoot{display:flex;justify-content:space-between;color:#9eabc8;font-size:12px;position:relative}
+    section{padding:78px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 42px}.kicker{color:#9e8aff;text-transform:uppercase;letter-spacing:1.6px;font-size:12px;font-weight:700}.section-head h2{font-size:clamp(32px,4vw,46px);margin:12px 0}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:linear-gradient(150deg,#121a30,#0e1425);border:1px solid var(--line);border-radius:19px;padding:25px;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#7b80ff77}.ico{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,#276edc55,#a36bff55);display:grid;place-items:center;font-size:21px;margin-bottom:20px}.card h3{font-size:20px;letter-spacing:-.5px;margin:0 0 10px}.card p{color:var(--muted);font-size:14px;margin:0}
+    .about{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}.aboutbox{border:1px solid var(--line);border-radius:24px;padding:32px;background:linear-gradient(145deg,#152343,#111629);min-height:300px;display:flex;flex-direction:column;justify-content:space-between}.stat{font-family:"Space Grotesk";font-size:42px;font-weight:700;background:var(--grad);color:transparent;background-clip:text}.about h2{font-size:clamp(32px,4vw,44px);margin:12px 0}.about p{color:var(--muted)}.checks{display:grid;gap:12px;margin-top:22px}.checks div{display:flex;gap:10px;align-items:center;color:#dce4fa;font-size:14px}.check{color:#8f9aff;font-weight:700}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding:25px;border-top:1px solid #637dff88;background:linear-gradient(180deg,#151d35aa,transparent);border-radius:4px 4px 17px 17px}.num{font-family:"Space Grotesk";font-size:13px;color:#a98aff}.step h3{font-size:19px;margin:12px 0 8px}.step p{color:var(--muted);font-size:14px;margin:0}
+    .cta{padding:45px;border:1px solid #7d76ff55;border-radius:25px;background:radial-gradient(ellipse at 90% 10%,#7355c344,transparent 45%),linear-gradient(120deg,#17284a,#17152e);display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:clamp(28px,4vw,40px);margin:0 0 9px}.cta p{color:var(--muted);margin:0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-card{border:1px solid var(--line);background:#11182a;border-radius:18px;padding:24px}.contact-card small{color:#98a7c7;text-transform:uppercase;letter-spacing:1px;font-weight:700}.contact-card a{display:block;margin-top:8px;font-size:18px;font-weight:700}.contact-card p{color:var(--muted);font-size:13px;margin-bottom:0}
+    footer{border-top:1px solid var(--line);padding:28px 0;color:#8995b1;font-size:13px}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.whatsapp{position:fixed;right:22px;bottom:22px;z-index:30;background:#20c66b;color:#06160d;border-radius:50px;padding:13px 18px;font-weight:800;box-shadow:0 8px 28px #0007}
+    @media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding:70px 0 55px;gap:35px}.visual{min-height:350px}.cards{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr;gap:30px}.steps{grid-template-columns:1fr}.cta{align-items:flex-start;flex-direction:column}}
+    @media(max-width:520px){.wrap{width:min(100% - 30px,1120px)}.navcta{padding:10px 12px;font-size:12px}.brand{font-size:14px}.hero p{font-size:16px}.cards,.contact-grid{grid-template-columns:1fr}.visual{padding:18px}.f2{right:-5px}.cta{padding:28px}.foot{flex-direction:column}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home"><span class="logo">S</span><span>SHADDY <span style="color:#9e8aff">AI</span> SERVICES</span></a>
+  <div class="navlinks"><a href="#services">Services</a><a href="#about">About</a><a href="#how">How it works</a><a href="#contact">Contact</a></div>
+  <a class="navcta" href="https://wa.me/254784864192?text=Hello%20Shaddy%20AI%20Services%2C%20I%27d%20like%20to%20make%20an%20inquiry.">Let's Talk ↗</a>
+</nav></div></header>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> AI-powered business support · Kenya</div>
+      <h1>Make your business <span>stand out.</span></h1>
+      <p>Smart, practical digital marketing support for small businesses. We help you show up professionally, connect with customers and keep growing.</p>
+      <div class="actions"><a class="btn" href="https://wa.me/254784864192?text=Hello%20Shaddy%20AI%20Services%2C%20I%27d%20like%20to%20get%20started.">Get started on WhatsApp ↗</a><a class="btn secondary" href="#services">Explore services</a></div>
+      <div class="micro">Based in Kisumu, Kenya · Serving small businesses online</div>
+    </div>
+    <div class="visual" aria-label="Abstract AI-inspired graphic">
+      <div class="visualtop"><strong>YOUR BUSINESS, AMPLIFIED</strong><span class="pill">SMARTER WORKFLOWS</span></div>
+      <div class="orbit"><div class="ring"></div><div class="ring two"></div><div class="orb">AI</div><div class="float f1">✦ Creative content</div><div class="float f2">↗ Better visibility</div><div class="float f3">◎ Business growth</div></div>
+      <div class="visualfoot"><span>Ideas into impact</span><span>Human-focused. AI-powered.</span></div>
+    </div>
+  </div>
+
+  <section id="services"><div class="wrap">
+    <div class="section-head"><div class="kicker">What we do</div><h2>Simple tools. Stronger presence.</h2><p>Affordable digital support designed to help your business communicate clearly and look its best online.</p></div>
+    <div class="cards">
+      <article class="card"><div class="ico">🎨</div><h3>Promotional Posters</h3><p>Eye-catching promotional designs for offers, new products, events and announcements.</p></article>
+      <article class="card"><div class="ico">✍️</div><h3>Social Media Captions</h3><p>Clear, engaging captions that help you communicate your offer and invite customers to act.</p></article>
+      <article class="card"><div class="ico">🛍️</div><h3>Product Descriptions</h3><p>Helpful product copy that explains key benefits and makes buying decisions easier.</p></article>
+      <article class="card"><div class="ico">💬</div><h3>WhatsApp Catalogue Setup</h3><p>Organise your products and services into a clean catalogue customers can browse.</p></article>
+      <article class="card"><div class="ico">🏪</div><h3>Business Profiles</h3><p>Present your business professionally with a clear introduction, services and contact details.</p></article>
+      <article class="card"><div class="ico">📅</div><h3>Weekly Content Packages</h3><p>Keep your pages active with a practical bundle of content prepared for the week.</p></article>
+    </div>
+  </div></section>
+
+  <section id="about"><div class="wrap about">
+    <div class="aboutbox"><div><div class="kicker">The Shaddy approach</div><h3 style="font-size:28px;margin:14px 0">Technology that works for real businesses.</h3></div><div><div class="stat">AI + YOU</div><div style="color:#b5c1dc;font-size:13px">Smart assistance, guided by your business goals.</div></div></div>
+    <div><div class="kicker">About us</div><h2>Big-business presentation. Small-business practicality.</h2><p>Shaddy AI Services is an online business support service based in Kisumu, Kenya. We work with small businesses that want professional marketing materials and a stronger digital presence without making things complicated.</p><p>Our approach combines useful AI tools with a focus on your products, your customers and your message.</p><div class="checks"><div><span class="check">✓</span> Clear, professional communication</div><div><span class="check">✓</span> Practical support for small businesses</div><div><span class="check">✓</span> Convenient service through WhatsApp</div></div></div>
+  </div></section>
+
+  <section id="how"><div class="wrap">
+    <div class="section-head"><div class="kicker">Getting started</div><h2>Three simple steps.</h2><p>Tell us what your business needs. We'll help you move from idea to ready-to-use content.</p></div>
+    <div class="steps"><div class="step"><div class="num">01 / CONNECT</div><h3>Tell us about your business</h3><p>Message us with your business type, goals and the support you need.</p></div><div class="step"><div class="num">02 / CREATE</div><h3>We prepare your content</h3><p>We shape the design or business content around your products and audience.</p></div><div class="step"><div class="num">03 / GROW</div><h3>Review and use it</h3><p>Review the work, request agreed adjustments and put your content to work.</p></div></div>
+  </div></section>
+
+  <section><div class="wrap"><div class="cta"><div><div class="kicker">Ready when you are</div><h2>Let's make your business easier to notice.</h2><p>Start a conversation with Shaddy AI Services today.</p></div><a class="btn" href="https://wa.me/254784864192?text=Hello%20Shaddy%20AI%20Services%2C%20I%27d%20like%20to%20discuss%20your%20services.">Chat with us on WhatsApp ↗</a></div></div></section>
+
+  <section id="contact"><div class="wrap">
+    <div class="section-head"><div class="kicker">Contact</div><h2>Let's talk about your next move.</h2><p>Reach us directly. We’ll be happy to hear about your business.</p></div>
+    <div class="contact-grid"><div class="contact-card"><small>WhatsApp / Phone</small><a href="https://wa.me/254784864192">0784 864 192 ↗</a><p>For inquiries, orders and customer support.</p></div><div class="contact-card"><small>Email</small><a href="mailto:shaddyaiservice.co.ke@gmail.com">shaddyaiservice.co.ke@gmail.com ↗</a><p>Send us your questions or project details.</p></div></div>
+  </div></section>
+</main>
+<footer><div class="wrap foot"><div>© <span id="year"></span> Shaddy AI Services. All rights reserved.</div><div>Smarter Business. Better Growth. · Kisumu, Kenya</div></div></footer>
+<a class="whatsapp" href="https://wa.me/254784864192?text=Hello%20Shaddy%20AI%20Services!" aria-label="Chat with us on WhatsApp">☏ WhatsApp</a>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script>if ('serviceWorker' in navigator) { window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(console.error)); }</script>
+</body></html>
