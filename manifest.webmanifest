@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Shaddy AI Services",
+  "short_name": "Shaddy AI",
+  "description": "Smart digital marketing and business support for small businesses in Kenya.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080b16",
+  "theme_color": "#080b16",
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
